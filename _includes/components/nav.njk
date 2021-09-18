@@ -1,9 +1,10 @@
 <nav>
   
-  <a href="" class="logo">Imedeli</a>
+  {% set navPages = collections.all | eleventyNavigation %}
+  <a href="" class="logo">CSS Nav</a>
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-  <ul class="menu">
+  <ul class="menu"></ul>
   {%- for entry in navPages %}
     <li>
       <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
@@ -13,3 +14,14 @@
 </nav>
 
 
+<header class="header">
+  <a href="" class="logo">CSS Nav</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="#work">Our Work</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#careers">Careers</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</header>
