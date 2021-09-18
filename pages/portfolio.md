@@ -6,5 +6,5 @@ date: 2017-01-01
 permalink: /portfolio/index.html
 eleventyNavigation:
   key: portfolio
-  order: 2
+  order: 3
 ---
