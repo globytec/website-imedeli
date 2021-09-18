@@ -1,0 +1,8 @@
+{
+  "layout": "layouts/servicios.njk",
+  "permalink": "servicios/{{ title | slug }}/index.html",
+  "author": "Anonymous",
+  "tags": [
+    "servicios"
+  ]
+}
