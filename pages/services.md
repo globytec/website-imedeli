@@ -1,10 +1,10 @@
 ---
-layout: layouts/blog.njk
-title: Blog
-metaDescription: A sample Blog page listing various posts and authors.
+layout: layouts/servicios.njk
+title: Servicios
+metaDescription: A sample Servicios page listing various posts and authors.
 date: 2017-01-01
-permalink: /blog/index.html
+permalink: /servicios/index.html
 eleventyNavigation:
-  key: Blog
-  order: 4
+  key: Servicios
+  order: 2
 ---
